@@ -1,0 +1,32 @@
+.logo {
+    margin: 48px 0px 0px 30px;
+    display: inline;
+    float: left;
+}
+
+.header-background {
+    background-color: purple;
+    height: 200px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 145px 0px 0px 0px;
+    padding: 14px;
+    overflow: hidden;
+    float: right;
+    background-color: purple;
+}
+
+.navbar li {
+    display: inline;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 25px;
+}
+
+.navbar li:hover {
+    background-color: rgb(185, 0, 185)
+}

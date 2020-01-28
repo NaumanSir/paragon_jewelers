@@ -1,0 +1,22 @@
+.footer-background {
+    background-color: #eaa2fa;
+    padding: 10px;
+}
+
+.footer-background p {
+    font-size: 10px;
+}
+
+.footer-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer-navbar li {
+    display: inline;
+    font-size: 15px;
+    text-align: center;
+    padding: 14px 16px;
+}
