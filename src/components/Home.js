@@ -1,4 +1,6 @@
 import React from "react"
+import "./Home.css"
+import home_gif from "./paragon_home.gif"
 
 class Home extends React.Component {
     // constructor() {
@@ -7,8 +9,8 @@ class Home extends React.Component {
     // }
     render() {
         return (
-            <div>
-                <h1>Home</h1>
+            <div className="home_background">
+                <img className="home_gif" src ={home_gif} />
             </div>
         )
     }

@@ -1,4 +1,5 @@
 import React from "react"
+import "./About.css"
 
 class About extends React.Component {
     // constructor() {
@@ -7,7 +8,7 @@ class About extends React.Component {
     // }
     render() {
         return (
-            <div>
+            <div className="about_section">
                 <h1>About Us</h1>
             </div>
         )

@@ -14,6 +14,7 @@ class Footer extends React.Component {
                     <ul>
                         <li>Subscribe to our list</li>
                         <li>Contact Us</li>
+                        <li>Download our Catalog</li>
                     </ul>
                 </div>
             </div>

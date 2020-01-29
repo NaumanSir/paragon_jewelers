@@ -1,6 +1,7 @@
 .footer-background {
-    background-color: #eaa2fa;
+    background-color: rgb(206, 84, 206);
     padding: 10px;
+    color: white;
 }
 
 .footer-background p {
