@@ -4,8 +4,8 @@
 
 .about_section h1 {
     margin-top: 0px;
-    margin-bottom: 20px;
-    padding-top: 25px;
+    margin-bottom: 30px;
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -16,7 +16,10 @@
     margin-right: auto;
 }
 
+.about_section h2 {
+    margin-left: 60px;
+}
+
 .about_section p {
-    padding-top: 20px;
-    margin: 0px 60px 0px 60px;
+    margin: 0px 60px 15px 60px;
 }
