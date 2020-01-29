@@ -12,18 +12,19 @@ import ProductList from "./ProductList"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 class App extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      jewelry: ProductList
-    }
-  }
+  // constructor() {
+  //   super()
+  //   this.state = {
+  //     jewelry: ProductList
+  //   }
+  // }
   render() {
-    const ProductList = this.state.jewelry.map(product => <Browse key={product.id} product={product}/>)
+    console.log(this.props.ProductList)
+    // const ProductList = this.state.jewelry.map(product => <Browse key={product.id} product={product}/>)
     return (
       <Router>
         <div>
-          {ProductList}
+          {/* {ProductList} */}
           <Header />
           <Switch>
             <Route path="/" exact component={Home} />
