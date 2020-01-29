@@ -13,10 +13,10 @@ class Browse extends React.Component {
         const products = data.map(product => {
             return (
                 <div>
-                    <h4>{product.id}</h4>
-                    <h4>{product.name}</h4>
+                    {/* <h4>{product.id}</h4> */}
                     {/* <img src={product.img_src} /> */}
-                    <h4>{product.price}</h4>
+                    <h4>{product.name}</h4>
+                    <h4>${product.price}</h4>
                 </div>
             )
         })
