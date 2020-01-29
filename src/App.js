@@ -8,23 +8,18 @@ import Auction from "./components/Auction"
 import Customize from "./components/Customize"
 import Sell from "./components/Sell"
 import About from "./components/About"
-import ProductList from "./ProductList"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 class App extends React.Component {
   // constructor() {
   //   super()
-  //   this.state = {
-  //     jewelry: ProductList
-  //   }
+  //   this.state = {}
   // }
   render() {
     console.log(this.props.ProductList)
-    // const ProductList = this.state.jewelry.map(product => <Browse key={product.id} product={product}/>)
     return (
       <Router>
         <div>
-          {/* {ProductList} */}
           <Header />
           <Switch>
             <Route path="/" exact component={Home} />

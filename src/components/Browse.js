@@ -8,21 +8,23 @@ class Browse extends React.Component {
     // }
     render() {
 
-        // const data = this.props.ProductList
+        const data = ProductList
 
-        // const products = data.map(product => {
-        //     console.log(product)
-        // })
-        console.log(ProductList)
+        const products = data.map(product => {
+            return (
+                <div>
+                    <h4>{product.id}</h4>
+                    <h4>{product.name}</h4>
+                    {/* <img src={product.img_src} /> */}
+                    <h4>{product.price}</h4>
+                </div>
+            )
+        })
 
         return (
             <div>
                 <h1>Browse</h1>
-                {/* <h4>{this.props.products.id}</h4> */}
-                {/* <h4>{this.props.product.id}</h4>
-                <h4>{this.props.product.name}</h4>
-                <img src={this.props.product.img_src} />
-                <h4>{this.props.product.price}</h4> */}
+                {products}
             </div>
         )
     }
