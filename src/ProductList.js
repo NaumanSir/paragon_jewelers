@@ -1,7 +1,7 @@
 const ProductList = [
     {
         id: 1,
-        name: "testing name",
+        name: "\"You Are My Sunshine\"",
         category: "testing category",
         price: 4100,
         type: "ring",
@@ -14,6 +14,7 @@ const ProductList = [
         category: "another category",
         price: 8200,
         type: "necklace",
+        img_src: "",
         feature: true
     },
     {
@@ -22,6 +23,16 @@ const ProductList = [
         category: "yet another category",
         price: 16400,
         type: "bracelet",
+        img_src: "",
+        feature: true
+    },
+    {
+        id: 4,
+        name: "yet another name",
+        category: "yet another category",
+        price: 16400,
+        type: "bracelet",
+        img_src: "",
         feature: true
     },
 ]
