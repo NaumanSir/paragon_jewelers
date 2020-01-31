@@ -10,29 +10,47 @@ const ProductList = [
     },
     {
         id: 2,
-        name: "another name",
+        name: "The Indulgent",
         category: "another category",
-        price: 8200,
-        type: "necklace",
-        img_src: "",
+        price: 22400,
+        type: "ring",
+        img_src: "https://cdn.pixabay.com/photo/2017/08/06/17/13/diamond-2594307_1280.jpg",
         feature: true
     },
     {
         id: 3,
-        name: "yet another name",
+        name: "Mr Discreet",
         category: "yet another category",
         price: 16400,
-        type: "bracelet",
-        img_src: "",
+        type: "ring",
+        img_src: "https://cdn.pixabay.com/photo/2017/02/24/03/35/engagement-ring-2093824_1280.jpg",
         feature: true
     },
     {
         id: 4,
-        name: "yet another name",
+        name: "The Californian Persian",
         category: "yet another category",
-        price: 16400,
-        type: "bracelet",
-        img_src: "",
+        price: 1001,
+        type: "ring",
+        img_src: "https://cdn.pixabay.com/photo/2016/02/13/22/42/ring-1198732_1280.jpg",
+        feature: true
+    },
+    {
+        id: 5,
+        name: "Fairytale Delight",
+        category: "yet another category",
+        price: 10000,
+        type: "ring",
+        img_src: "https://cdn.pixabay.com/photo/2017/07/12/18/43/wedding-2497820_1280.jpg",
+        feature: true
+    },
+    {
+        id: 6,
+        name: "Blossoms",
+        category: "yet another category",
+        price: 21000,
+        type: "ring",
+        img_src: "https://cdn.pixabay.com/photo/2017/06/15/11/42/ring-2405152_1280.jpg",
         feature: true
     },
 ]
