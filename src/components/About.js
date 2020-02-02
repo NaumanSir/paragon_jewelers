@@ -26,7 +26,7 @@ class About extends React.Component {
                 <h2>What we offer</h2>
                 <p>Paragon Jewelers prides itself in its long tradition of custom jewelry - a tradition that started it all. In addition to that, Paragon Jewelers has one of the most extensive collections of diamond jewelry - from engagement rings to bangles, we have what you're looking for. We have a rotating offering of both new and antique pieces up for bid on our website and in-store. If you're looking to auction, we have you covered - just call or email us for more details.</p>
                 <button onClick={this.handleClick}>Visit Us</button>
-                {this.state.handleClick ? <Visit /> : null}
+                {this.state.render ? <Visit /> : null}
             </div>
         )
     }
