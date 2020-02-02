@@ -53,6 +53,42 @@ const ProductList = [
         img_src: "https://cdn.pixabay.com/photo/2017/06/15/11/42/ring-2405152_1280.jpg",
         feature: true
     },
+    {
+        id: 7,
+        name: "Holiday",
+        category: "yet another category",
+        price: 6250,
+        type: "bracelet",
+        img_src: "https://cdn.pixabay.com/photo/2016/02/13/22/52/bracelet-1198740_1280.jpg",
+        feature: true
+    },
+    {
+        id: 8,
+        name: "Be My Prince",
+        category: "yet another category",
+        price: 6250,
+        type: "bracelet",
+        img_src: "https://cdn.pixabay.com/photo/2013/11/27/16/00/accessory-219353_1280.jpg",
+        feature: true
+    },
+    {
+        id: 9,
+        name: "Take Me to Hawaii",
+        category: "yet another category",
+        price: 6250,
+        type: "bracelet",
+        img_src: "https://cdn.pixabay.com/photo/2016/02/13/22/48/bracelet-1198737_1280.jpg",
+        feature: true
+    },
+    {
+        id: 10,
+        name: "Green with Envy",
+        category: "yet another category",
+        price: 6250,
+        type: "bracelet",
+        img_src: "https://cdn.pixabay.com/photo/2016/01/13/08/48/cartier-1137400_1280.jpg",
+        feature: true
+    },
 ]
 
 export default ProductList
