@@ -10,10 +10,10 @@ class Visit extends React.Component {
     render() {
 
         const mapStyle = {
-            width: '400px',
-            height: '300px',
+            width: '440px',
+            height: '250px',
             padding: '20px',
-            margin: '0px 0px 0px 40px'
+            margin: '0px 0px 0px 40px',
         }
         return (
             <div className="visit">
