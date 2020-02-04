@@ -1,6 +1,6 @@
 import React from "react"
 import "./Visit.css"
-import { Map, GoogleApiWrapper } from "google-maps-react"
+import { Map, GoogleApiWrapper, Marker } from "google-maps-react"
 
 class Visit extends React.Component {
     // constructor() {
@@ -8,13 +8,23 @@ class Visit extends React.Component {
     //     this.state = {}
     // }
     render() {
+
+        const mapStyle = {
+            width: '400px',
+            height: '300px',
+            padding: '20px',
+            margin: '0px 0px 0px 40px'
+        }
         return (
             <div className="visit">
                 <Map
                     google={this.props.google}
-                    zoom={8}
+                    zoom={12}
+                    style={mapStyle}
                     initialCenter={{ lat: 34.067210, lng: -118.401050 }}
-                />
+                >
+                    <Marker />
+                </Map>
                 <h4>Our Address:</h4>
                 <p>1221 N Rodeo Drive</p>
                 <p>Beverly Hills, CA 90210</p>

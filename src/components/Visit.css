@@ -1,16 +1,17 @@
 .visit {
     padding: 20px;
-    margin-left: 550px;
     /* display: inline-block; */
 }
 
-.visit h4 {}
+.visit h4 {
+    margin-left: 550px;
+}
 
 .visit p {
-    margin: 0px;
+    margin: 0px 0px 0px 550px;
     padding: 0px;
 }
 
-.visit map {
+Map {
     width: 50%;
 }
