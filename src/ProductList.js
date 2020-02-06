@@ -82,9 +82,18 @@ const ProductList = [
     },
     {
         id: 10,
+        name: "Wristy Business",
+        category: "yet another category",
+        price: 11250,
+        type: "bracelet",
+        img_src: "https://cdn.pixabay.com/photo/2017/11/09/16/21/bangles-2933988_1280.jpg",
+        feature: true
+    },
+    {
+        id: 11,
         name: "Green with Envy",
         category: "yet another category",
-        price: 6250,
+        price: 16250,
         type: "bracelet",
         img_src: "https://cdn.pixabay.com/photo/2016/01/13/08/48/cartier-1137400_1280.jpg",
         feature: true
