@@ -9,7 +9,9 @@ class Auction extends React.Component {
 
     addHundred() {
         var updatedBid = AuctionItems.map(data => {
-            console.log(data.starting_bid + 100)
+            console.log (
+                data.starting_bid + 100
+            )
         })
     }
 
