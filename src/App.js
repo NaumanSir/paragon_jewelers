@@ -8,6 +8,9 @@ import Auction from "./components/Auction"
 import Customize from "./components/Customize"
 import Sell from "./components/Sell"
 import About from "./components/About"
+import Subscribe from "./components/Subscribe"
+import Contact from "./components/Contact"
+import Catalog from "./components/Catalog"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 class App extends React.Component {
@@ -28,6 +31,9 @@ class App extends React.Component {
             <Route path="/customize" component={Customize} />
             <Route path="/sell" component={Sell} />
             <Route path="/about" component={About} />
+            <Route path="/subscribe" component={Subscribe} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/catalog" component={Catalog} />
           </Switch>
           <Footer />
         </div>
