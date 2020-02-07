@@ -2,19 +2,14 @@ import React from "react"
 import AuctionItems from "../AuctionItems"
 
 class Auction extends React.Component {
-    constructor() {
-        super()
-        this.state = {
-            bid: 0
-        }
-        this.addHundred = this.addHundred.bind(this)
-    }
+    // constructor() {
+    //     super()
+    //     this.state = {}
+    // }
 
     addHundred() {
-        this.setState(prevState => {
-            return {
-                bid: prevState.bid + 100
-            }
+        var updatedBid = AuctionItems.map(data => {
+            console.log(data.starting_bid + 100)
         })
     }
 

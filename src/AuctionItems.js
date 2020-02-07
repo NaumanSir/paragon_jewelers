@@ -22,7 +22,7 @@ const AuctionItems = [
     {
         id: 1003,
         name: "Nepali Wooden Handcrafted Tara Statue",
-        details: "24 lbs, 3\' tall, 3.12\' wide",
+        details: "24 lbs, 3' tall, 3.12' wide",
         desc: "",
         est_value: 4300,
         starting_bid: 1200,
