@@ -1,0 +1,28 @@
+.download {
+    background-color: #eaa2fa;
+    padding: 50px;
+}
+
+.download button {
+    background-color: white;
+    border: 2px solid purple;
+    color: purple;
+    font-family: Lucida Sans;
+    font-weight: bolder;
+    padding: 16px 32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download button:hover {
+    background-color: purple;
+    color: white;
+}
+
+/* .call_us {
+    background-color: #eaa2fa;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
