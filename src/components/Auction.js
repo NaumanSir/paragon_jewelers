@@ -5,15 +5,18 @@ class Auction extends React.Component {
     constructor() {
         super()
         this.state = {
-            bid: 0
+            bids: {}
         }
         this.addHundred = this.addHundred.bind(this)
     }
 
-    addHundred() {
-        this.setState((state) => {
-            console.log ({bid: state.bid + 100})
-        })
+    addHundred(item) {
+        this.setState((state) => ({
+            bids: {
+                ...state.bids,
+                [item.name]: (state.bids[item.name] || 0) + 100
+            }
+        }))
     }
 
     render() {
@@ -22,8 +25,10 @@ class Auction extends React.Component {
             return (
                 <div>
                     <h4>{item.name}</h4>
-                    <h4>${item.starting_bid}</h4>
-                    <button onClick={this.addHundred}>Bid $100</button>
+                    <h4>${item.starting_bid + (this.state.bids[item.name] || 0)}</h4>
+                    <button onClick={() => this.addHundred(item)}>
+                        Bid $100
+                    </button>
                 </div>
             )
         })
