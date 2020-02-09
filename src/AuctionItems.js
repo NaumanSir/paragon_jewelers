@@ -1,22 +1,22 @@
 const AuctionItems = [
     {
         id: 1001,
-        name: "test name",
+        name: "Early 1900s Russian Febrege Jewelry Box",
         details: "24k gold with platinum lining and I diamonds.",
         desc: "",
         est_value: 10550,
         starting_bid: 4300,
-        img_src: "",
+        img_src: "https://cdn.pixabay.com/photo/2018/04/24/09/44/decoration-3346595_1280.jpg",
         img_alt: "test"
     },
     {
         id: 1002,
-        name: "another test name",
-        details: "antique bejeweled lamp",
+        name: "Golden Imperial Pocket Watch",
+        details: "18k gold",
         desc: "",
         est_value: 10550,
         starting_bid: 4300,
-        img_src: "",
+        img_src: "https://cdn.pixabay.com/photo/2017/12/16/15/57/pocket-watch-3022838_1280.jpg",
         img_alt: "test"
     },
     {
