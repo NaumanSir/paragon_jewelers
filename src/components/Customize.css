@@ -1,0 +1,13 @@
+.customize {
+    background-color: #eaa2fa;
+}
+
+.form_header {
+    margin: 0px 0px 0px 22px;
+}
+
+.form_itself {
+    padding: 15px;
+    margin-left: 35px;
+    /* border: 1px solid purple; */
+}
