@@ -98,6 +98,33 @@ const ProductList = [
         img_src: "https://cdn.pixabay.com/photo/2016/01/13/08/48/cartier-1137400_1280.jpg",
         feature: true
     },
+    {
+        id: 12,
+        name: "The Heirloom",
+        category: "yet another category",
+        price: 31400,
+        type: "necklace",
+        img_src: "https://cdn.pixabay.com/photo/2015/05/26/09/48/chain-784422_1280.jpg",
+        feature: true
+    },
+    {
+        id: 13,
+        name: "Traditions",
+        category: "yet another category",
+        price: 2000,
+        type: "necklace",
+        img_src: "https://cdn.pixabay.com/photo/2016/11/11/07/47/jewellery-1815974_1280.jpg",
+        feature: true
+    },
+    {
+        id: 14,
+        name: "Flair of Hollywood",
+        category: "yet another category",
+        price: 31050,
+        type: "necklace",
+        img_src: "https://cdn.pixabay.com/photo/2015/10/01/15/14/beads-967179_1280.jpg",
+        feature: true
+    },
 ]
 
 export default ProductList

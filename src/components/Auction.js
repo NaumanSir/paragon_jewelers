@@ -34,10 +34,10 @@ class Auction extends React.Component {
         const items = AuctionItems.map(item => {
             return (
                 <div className="item_block">
-                    <h4>{item.name}</h4>
+                    <h3>{item.name}</h3>
                     <h4>Starting bid: ${item.starting_bid} | Estimated value: ${item.est_value}</h4>
                     <img src={item.img_src} />
-                    <h4>${item.starting_bid + (this.state.bids[item.name] || 0)}</h4>
+                    <h4>Current Bid: ${item.starting_bid + (this.state.bids[item.name] || 0)}</h4>
                     <button onClick={() => this.addHundred(item)}>
                         Bid $100
                     </button>

@@ -4,6 +4,11 @@
     margin-right: auto;
 }
 
+.page_display h1 {
+    text-align: center;
+    margin-top: 45px;
+}
+
 .product_display {
     border: 2px;
     width: 20%;

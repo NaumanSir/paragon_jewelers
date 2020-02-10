@@ -24,7 +24,7 @@ class Browse extends React.Component {
 
         return (
             <div className="page_display">
-                <h1>Browse</h1>
+                <h1>Browse Our Collection</h1>
                 {products}
             </div>
         )
