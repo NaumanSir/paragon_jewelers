@@ -29,13 +29,15 @@ class Customize extends React.Component {
                             <option value="bracelet">Bracelet / Bangle</option>
                             <option value="none">None</option>
                         </select><br />
-                        Number of pieces:
-                        <input type="number" name="no_of_pieces" /><br />
+                        Number of pieces:&nbsp;&nbsp;
+                        <input className="number_of_pieces" type="number" name="no_of_pieces" /><br />
                         Describe what you imagine the custom piece(s) to look like<br />
-                        <input type="textarea" cols="50" name="desc" /><br />
+                        <input className="desc" type="textarea" cols="50" name="desc" /><br />
                         Is there any custom functionality you would like in this piece (fold out, light up, hidden compartment, etc.)?<br />
-                        <input type="textarea" name="functionality_desc" /><br />
-                        <input type="submit" value="Submit" />
+                        <input className="desc" type="textarea" name="functionality_desc" /><br />
+                        <div className="submit_button">
+                            <input type="submit" value="Submit" />
+                        </div>
                     </form>
                 </div>
             </div>

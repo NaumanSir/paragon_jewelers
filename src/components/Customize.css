@@ -6,8 +6,52 @@
     margin: 0px 0px 0px 22px;
 }
 
+.form_header h1 {
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
 .form_itself {
     padding: 15px;
     margin-left: 35px;
     /* border: 1px solid purple; */
+}
+
+.form_itself input {
+    margin-top: 11px;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: lightgray;
+    /* width: 300px; */
+}
+
+.form_itself select {
+    margin-top: 11px;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: purple;
+    font-weight: bold;
+}
+
+.number_of_pieces {
+    width: 40px;
+}
+
+.desc {
+    width: 400px;
+    height: 100px;
+}
+
+.submit_button input {
+    background-color: white;
+    border: 2px solid purple;
+    color: purple;
+    font-family: Lucida Sans;
+    font-weight: bolder;
+    padding: 16px 32px;
+}
+
+.submit_button input:hover {
+    background-color: purple;
+    color: white;
 }
