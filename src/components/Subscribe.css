@@ -1,0 +1,46 @@
+.subscribe_background {
+    background-color: #eaa2fa;
+}
+
+h1 {
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+label {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.disclaimer {
+    margin: 0px;
+}
+
+.inputs {
+    color: lightgray;
+    margin-bottom: 22px;
+    height: 20px;
+    border-style: none;
+    border-left: 3px solid purple;
+}
+
+.checkbox {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+button {
+    background-color: white;
+    border: 2px solid purple;
+    color: purple;
+    font-family: Lucida Sans;
+    font-weight: bolder;
+    padding: 16px 32px;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: purple;
+    color: white;
+}

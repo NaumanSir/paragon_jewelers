@@ -11,10 +11,15 @@
     padding-top: 30px;
 }
 
+.form_header p {
+    margin-left: 20px;
+}
+
 .form_itself {
     padding: 15px;
     margin-left: 35px;
     /* border: 1px solid purple; */
+    /* border-bottom: 2px solid purple; */
 }
 
 .form_itself input {
@@ -23,6 +28,8 @@
     padding: 5px;
     color: lightgray;
     /* width: 300px; */
+    border-style: none;
+    border-left: 3px solid purple;
 }
 
 .form_itself select {
@@ -31,6 +38,8 @@
     padding: 5px;
     color: purple;
     font-weight: bold;
+    border-style: none;
+    border-left: 3px solid purple;
 }
 
 .number_of_pieces {

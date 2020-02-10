@@ -1,3 +1,7 @@
+.contact_background {
+    background-color: #eaa2fa;
+}
+
 .contact_section {
     background-color: #eaa2fa;
 }
@@ -7,4 +11,8 @@
     margin-bottom: 30px;
     padding-top: 30px;
     text-align: center;
+}
+
+.contact_section p {
+    margin-left: 20px;
 }

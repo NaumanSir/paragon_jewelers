@@ -3,11 +3,12 @@
     /* display: inline-block; */
 }
 
-.visit h4 {
-    margin-left: 550px;
+.visit h3 {
+    margin-left: 650px;
+    padding-top: 20px;
 }
 
 .visit p {
-    margin: 0px 0px 0px 550px;
+    margin: 0px 0px 0px 650px;
     padding: 0px;
 }

@@ -10,8 +10,8 @@ class Visit extends React.Component {
     render() {
 
         const mapStyle = {
-            width: '440px',
-            height: '250px',
+            width: '510px',
+            height: '367px',
             padding: '20px',
             margin: '0px 0px 0px 40px',
         }
@@ -25,11 +25,15 @@ class Visit extends React.Component {
                 >
                     <Marker />
                 </Map>
-                <h4>Our Address:</h4>
+                <h3>Our Address:</h3>
                 <p>1221 N Rodeo Drive</p>
                 <p>Beverly Hills, CA 90210</p>
+                <h3>Hours:</h3>
+                <p><strong>Monday to Thursday:</strong> 8am to 6pm</p>
+                <p><strong>Fridays & Saturdays:</strong> 9am to 8pm</p>
+                <p><strong>Sundays:</strong> Generally closed, open upon request</p>
                 <div className="call_for_dir">
-                    <h4>Need Directions?</h4>
+                    <h3>Need Directions?</h3>
                     <p>Call us at (310) 555-0126.</p>
                     <p>We're more than happy to help.</p>
                 </div>

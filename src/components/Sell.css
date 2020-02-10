@@ -1,0 +1,43 @@
+.sell_header {
+    padding-bottom: 20px;
+}
+
+.sell_header p {
+    margin: 4px 25px 10px 22px;
+    padding: 0px;
+}
+
+.sell_form {
+    margin: 0px 25px 0px 22px;
+}
+
+.sell_form select {
+    margin-bottom: 17px;
+    margin-top: 4px;
+    font-weight: bold;
+    /* border-style: none; */
+    border-left: 3px solid purple;
+    height: 25px;
+}
+
+.sell_desc {
+    width: 400px;
+    height: 100px;
+    margin-top: 4px;
+    border-left: 3px solid purple;
+}
+
+.sell_submit input {
+    background-color: white;
+    border: 2px solid purple;
+    color: purple;
+    font-family: Lucida Sans;
+    font-weight: bolder;
+    padding: 16px 32px;
+    margin: 25px 0px 25px 0px;
+}
+
+.sell_submit input:hover {
+    background-color: purple;
+    color: white;
+}

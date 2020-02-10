@@ -11,7 +11,7 @@ class Customize extends React.Component {
             <div className="customize">
                 <div className="form_header">
                     <h1>Request an order of customized jewelry from Paragon Jewelers.</h1>
-                    <p>Complete the form below and Paragon Jewelers will contact you to clarify details and get you a quote.</p>
+                    <p>Complete the form below and Paragon Jewelers will contact you to clarify details and get you a quote ASAP.</p>
                 </div>
                 <div className="form_itself">
                     <form>
@@ -31,7 +31,7 @@ class Customize extends React.Component {
                         </select><br />
                         Number of pieces:&nbsp;&nbsp;
                         <input className="number_of_pieces" type="number" name="no_of_pieces" /><br />
-                        Describe what you imagine the custom piece(s) to look like<br />
+                        Describe what you imagine the custom piece(s) to look like.<br />
                         <input className="desc" type="textarea" cols="50" name="desc" /><br />
                         Is there any custom functionality you would like in this piece (fold out, light up, hidden compartment, etc.)?<br />
                         <input className="desc" type="textarea" name="functionality_desc" /><br />
