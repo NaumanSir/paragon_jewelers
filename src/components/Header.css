@@ -30,3 +30,25 @@
 .navbar li:hover {
     background-color: rgb(185, 0, 185)
 }
+
+@media (max-width: 699px) {
+    .navbar li {
+        display: inline-block;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        padding: 14px 25px;
+    }
+}
+
+@media (max-width: 599px) {
+    .navbar li {
+        display: inline-block;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        padding: 14px 25px;
+    }
+}
