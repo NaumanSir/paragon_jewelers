@@ -37,3 +37,9 @@
     background-color: purple;
     color: white;
 }
+
+@media (max-width: 599px) {
+    .item_block img {
+        width: 100%;
+    }
+}
