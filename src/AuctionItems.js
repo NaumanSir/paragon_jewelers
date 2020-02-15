@@ -14,8 +14,8 @@ const AuctionItems = [
         name: "Golden Imperial Pocket Watch",
         details: "18k gold",
         desc: "",
-        est_value: 10550,
-        starting_bid: 4300,
+        est_value: 9700,
+        starting_bid: 5150,
         img_src: "https://cdn.pixabay.com/photo/2017/12/16/15/57/pocket-watch-3022838_1280.jpg",
         img_alt: "test"
     },
@@ -24,7 +24,7 @@ const AuctionItems = [
         name: "Nepali Wooden Handcrafted Tara Statue",
         details: "24 lbs, 3' tall, 3.12' wide",
         desc: "",
-        est_value: 4300,
+        est_value: 4600,
         starting_bid: 1200,
         img_src: "https://cdn.pixabay.com/photo/2013/07/16/19/07/tara-163076_1280.jpg",
         img_alt: "test"
